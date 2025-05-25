@@ -1,0 +1,5 @@
+{
+  "CUSTOMLOOPS.Settings.JsonDataPath.Name": "Fichier des données de bouclage",
+  "CUSTOMLOOPS.Settings.JsonDataPath.Hint": "Indiquez le chemin vers le fichier JSON contenant les données de bouclage.",
+  "CUSTOMLOOPS.LoopJsonNotFound": "Impossible de charger le fichier JSON contenant les données de bouclage."
+}

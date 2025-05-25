@@ -1,0 +1,53 @@
+{
+  "id": "custom-loop-points",
+  "title": "Custom Loop Points",
+  "description": "Allows to use arbitrary loop points in audio.",
+
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Jeido_Uran",
+    "discord": "jeido_uran"
+    }
+  ],
+  "socket": false,
+  "scripts": [],
+  "esmodules": [
+      "scripts/main.js",
+      "scripts/settings.js"
+  ],
+  "styles": [],
+  "templates": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.2.2",
+          "maximum": "5.9.99"
+        }
+      }
+    ],
+    
+    "requires": [
+
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12.331",
+    "verified": "12.331",
+    "maximum": "13.999"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "CUSTOMLOOPS.Settings.JsonDataPath.Name": "Loop Data Path",
+  "CUSTOMLOOPS.Settings.JsonDataPath.Hint": "Path of the JSON file containing loop data.",
+  "CUSTOMLOOPS.LoopJsonNotFound": "Could not load the JSON file containing loop data."
+}

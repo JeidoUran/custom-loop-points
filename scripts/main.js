@@ -40,14 +40,6 @@ Hooks.once("ready", async () => {
       }
     };
 
-    const jumpToLoopStartOnce = () => {
-      if (audio.currentTime < loopStart) {
-        audio.currentTime = loopStart;
-        this.startTime = this.context.currentTime - loopStart;
-      }
-      audio.removeEventListener("play", jumpToLoopStartOnce);
-    };
-
     audio.addEventListener("timeupdate", onTimeUpdate);
     audio.addEventListener("play", jumpToLoopStartOnce);
     audio.addEventListener("ended", () => {

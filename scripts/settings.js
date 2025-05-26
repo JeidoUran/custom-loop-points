@@ -6,6 +6,6 @@ Hooks.once("init", () => {
     config: true,
     type: String,
     filePicker: "any",
-    default: "./modules/loop-points/loop-data.json",
+    default: "./modules/custom-loop-points/loop-data.json",
   });
 });

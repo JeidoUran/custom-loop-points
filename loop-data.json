@@ -1,4 +1,6 @@
 {
-  "ost_boss1.ogg": { "loopStart": 176400, "loopEnd": 2345678 },
-  "village_theme.mp3": { "loopStart": 0, "loopEnd": 3840000 }
+  "eo5-battle2-preemptive.ogg": { 
+    "loopStart": 483450,
+    "loopEnd": 6410572 
+  }
 }
